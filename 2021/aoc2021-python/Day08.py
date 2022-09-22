@@ -1,5 +1,5 @@
 data = []
-for x in open("input/day08.txt").readlines():
+for x in open("../../../../../stuff/smallProjects/adventOfCode/2021/aoc2021-python/input/day08.txt").readlines():
     patterns, outputs = x.split(" | ")
     patterns = [set(a) for a in patterns.strip().split(" ")]
     outputs = [set(a) for a in outputs.strip().split(" ")]

@@ -1,4 +1,4 @@
-data = [line.strip() for line in open("input/day03.txt")]
+data = [line.strip() for line in open("../../../../../stuff/smallProjects/adventOfCode/2021/aoc2021-python/input/day03.txt")]
 
 
 # improved PLoC by TechnoTone(github)

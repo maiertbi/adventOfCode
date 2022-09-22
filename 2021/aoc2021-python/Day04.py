@@ -1,5 +1,5 @@
 def getFile():
-    lines = open("input/day04.txt").read().split("\n\n")
+    lines = open("../../../../../stuff/smallProjects/adventOfCode/2021/aoc2021-python/input/day04.txt").read().split("\n\n")
     ORDER = map(int, lines[0].split(","))
     # 3-nested list comprehension
     BOARDS = [[[int(x) for x in map(str.strip, row.split(" ")) if x != ""]

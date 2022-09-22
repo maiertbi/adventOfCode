@@ -2,7 +2,7 @@ from collections import defaultdict
 
 part1 = defaultdict(int)
 part2 = defaultdict(int)
-for line in open("input/day05.txt", "r"):
+for line in open("../../../../../stuff/smallProjects/adventOfCode/2021/aoc2021-python/input/day05.txt", "r"):
     start, end = line.split(" -> ")
     x1, y1 = start.split(",")
     x2, y2 = end.split(",")

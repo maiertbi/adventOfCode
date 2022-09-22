@@ -1,4 +1,4 @@
-with open("input/day02.txt") as file:
+with open("../../../../../stuff/smallProjects/adventOfCode/2021/aoc2021-python/input/day02.txt") as file:
     data = [line.split() for line in file]
 
 data = [[line[0], int(line[1])] for line in data]

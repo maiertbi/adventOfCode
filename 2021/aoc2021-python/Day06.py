@@ -1,7 +1,7 @@
 # open("input/day06.txt").read()
 from collections import defaultdict
 
-data = [int(x) for x in open("input/day06.txt").read().split(",")]
+data = [int(x) for x in open("../../../../../stuff/smallProjects/adventOfCode/2021/aoc2021-python/input/day06.txt").read().split(",")]
 
 
 def sol1(length):  # possible for Part1 but not efficient

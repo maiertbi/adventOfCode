@@ -1,4 +1,4 @@
-data = [int(line) for line in open("input/day01.txt")]
+data = [int(line) for line in open("../../../../../stuff/smallProjects/adventOfCode/2021/aoc2021-python/input/day01.txt")]
 
 
 def solution(window):
